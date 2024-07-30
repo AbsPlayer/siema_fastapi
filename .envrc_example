@@ -1,0 +1,5 @@
+export POSTGRES_USER=username
+export POSTGRES_PASSWORD=password
+export POSTGRES_DB=database_name
+
+export DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@localhost:5432/${POSTGRES_DB}

@@ -1,0 +1,19 @@
+# https://github.com/GoogleCloudPlatform/getting-started-python/blob/main/optional-kubernetes-engine/.dockerignore
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+*.log
+.git
+
+docker-compose.*
+Dockerfile
